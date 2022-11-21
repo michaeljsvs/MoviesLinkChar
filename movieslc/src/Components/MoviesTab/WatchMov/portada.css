@@ -1,0 +1,115 @@
+.Portada {
+    position: absolute !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+
+    width: 834px !important;
+    height: 134px !important;
+    top: 34px !important;
+    left: 88px !important;
+
+    border-radius: 20px !important;
+    overflow: hidden !important;
+
+    --bs-card-border-width: 0px !important;
+    --bs-card-bg: transparent !important;
+}
+
+.card-img-top {
+    position: absolute !important;
+}
+
+.button-portada {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 14px;
+    bottom: 18px;
+
+    background: #F36F45;
+    border-radius: 5px;
+}
+
+.container-circle {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+}
+
+.button-portada .bi-play-circle-fill {
+    font-size: 20px;
+    color: #C4C4C4;
+    z-index: 3;
+}
+
+.button-portada .bi-play-circle {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.text-button-portada {
+    /* Watch Now */
+    width: 55px;
+    height: 13px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.friends-watch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 160px;
+    height: 24px;
+    top: 9px;
+    left: 14px;
+    
+}
+
+.img-friends{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img-friends img {
+    width: 24px !important;
+    height: 24px !important;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.text-fw {
+    /* +2 friends are watching */
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

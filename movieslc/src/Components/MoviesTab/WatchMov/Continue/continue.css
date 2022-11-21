@@ -1,0 +1,112 @@
+.Continue-watch {
+    position: absolute;
+    height: 210px;
+    width: 834px;
+    
+    top: 210px;
+    left: 88px;
+}
+
+.title-continue-cont {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 253px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+}
+
+.title-continue {
+    /* Continue Watching */
+    width: 164px;
+    height: 23px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cont-movies {
+    width: 69px;
+    height: 15px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #606265;
+
+    border-left: 1px solid #454545;
+}
+
+.container-cards {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.all-movies {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 74px;
+    height: 15px;
+    right: 0px;
+    top: 0px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #606265;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cont-friends-watch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 92px;
+    height: 24px;
+    top: 9px;
+    left: 14px;
+    
+}
