@@ -1,0 +1,77 @@
+.Popular-mov {
+    position: absolute;
+    height: 179px;
+    width: 834px;
+    
+    top: 458px;
+    left: 88px;
+}
+
+.title-popular-cont {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 253px;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+}
+
+.title-popular {
+    /* Continue Watching */
+    width: 178px;
+    height: 23px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container-cards {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.all-movies {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 74px;
+    height: 15px;
+    right: 0px;
+    top: 0px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #606265;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
