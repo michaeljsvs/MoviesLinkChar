@@ -1,0 +1,17 @@
+.movshearch {
+    position: relative;
+}
+
+.bi-arrow-left-circle-fill {
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    left: 100px;
+    top: 30px;
+}
+
+.bi-arrow-left-circle-fill:hover {
+    font-size: 70px;
+    left: 95px;
+    top: 25px;
+}
