@@ -17,8 +17,8 @@ function Navbar() {
                 </button>
 
                 {/* Elementos del menu colapsable */}
-                <div className="collapse navbar-collapse" id="menu">
-                    <ul className='navbar-nav me-auto'>
+                <div className="collapse navbar-collapse justify-content-between" id="menu">
+                    <ul className='navbar-nav ml-auto mb-2 mb-lg-0'>
                         <li className="nav-item">
                             <a className='nav-link active' href="#!">Movies</a>
                         </li>

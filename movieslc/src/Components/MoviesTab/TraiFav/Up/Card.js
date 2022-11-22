@@ -6,7 +6,7 @@ import './cards.css'
 function Card({title, imageSource, overview, trailerCountry, trailerDate}) {
   return (
     <div className='traifav-card card'>
-        <img className='card-img-top' src={imageSource} alt="" />
+        <img className='img-up card-img-top' src={imageSource} alt="" />
         <div className="container-eye">
           <i class="bi bi-eye"></i>
           <div className='title-eye'>2.3 M</div>

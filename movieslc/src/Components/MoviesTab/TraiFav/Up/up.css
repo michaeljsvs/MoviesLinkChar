@@ -9,3 +9,18 @@
     justify-content: center;
     align-items: center;
 }
+
+.title-up {
+    /* New trailers */
+    position: absolute;
+    left: 50px;
+    top: 34px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
