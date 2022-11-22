@@ -252,3 +252,11 @@
     position: absolute;
     top: 79px;
 }
+
+.boton {
+    position: absolute;
+    font-size: 20px;
+    right: 11px;
+    top: -5px;
+    color: white;
+}

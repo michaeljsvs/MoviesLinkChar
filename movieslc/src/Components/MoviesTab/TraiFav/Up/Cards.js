@@ -11,6 +11,7 @@ function Cards() {
     const URL_IMAGE = 'https://image.tmdb.org/t/p/original'
 
     const [movies, setMovies] = useState([])
+    console.log("🚀 ~ file: Cards.js ~ line 14 ~ Cards ~ movies", movies)
     const [movie, setMovie] = useState({ title: "Loading Movies"})
     const [trailer, setTrailer] = useState(null)
 
@@ -60,6 +61,7 @@ function Cards() {
                     movies.slice(0, 2).map(movie => (
                         <div className="card-up col-md-12" key={movie.id}>
                             <Card 
+                                idMovie={movie.id}
                                 title={movie.title} 
                                 imageSource={`${URL_IMAGE + movie.backdrop_path}`} 
                                 overview={movie.overview}

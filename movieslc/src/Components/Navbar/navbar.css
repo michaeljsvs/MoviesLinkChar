@@ -55,3 +55,22 @@
     border-bottom: 3.43px solid red;
     border-image: linear-gradient(90deg, #EC008C 0%, #FC6767 100%) 1;
 }
+
+.container-perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 23px;
+
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 1153px;
+    top: 44px;
+}
+
+.search {
+    font-size: 22px;
+    color: white
+}

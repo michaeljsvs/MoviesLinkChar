@@ -35,6 +35,9 @@ function Navbar() {
                 </div>
             </div>
         </nav>
+        <div className="container-perfil">
+            <i class="search bi bi-search"></i>
+        </div>
     </div>
   )
 }
