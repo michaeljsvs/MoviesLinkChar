@@ -70,6 +70,40 @@
     top: 44px;
 }
 
+.form-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: -199.9px;
+    overflow: hidden;
+}
+
+.input-search {
+    background-color: transparent;
+    color: #FFF;
+    border: 1px solid white;
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+}
+
+.form-search:hover > .input-search{
+    opacity: 1;
+    transition: all 500ms ease-out;
+    visibility: visible;
+}
+
+.form-search .btn {
+    color: #FFF;
+    font-size: 22px;
+}
+
+.form-search .btn:hover {
+    color: #FFF;
+    font-size: 25px;
+}
+
 .search {
     font-size: 22px;
     color: white
