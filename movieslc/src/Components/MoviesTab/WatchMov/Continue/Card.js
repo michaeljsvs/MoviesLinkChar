@@ -7,7 +7,22 @@ import './cards.css'
 function Card({title, imageSource, overview}) {
   return (
     <div className='continue-card card'>
-        <img className='card-img-top' src={imageSource} alt="" />
+        <figure>
+          <img className='cont-img card-img-top' src={imageSource} alt="" />
+          <div className="capa">
+            <div className="sub-capa">
+              <div className="capa-title">
+                {title}
+              </div>
+              <div className="capa-country">
+                Country: United States
+              </div>
+              <div className="capa-overview">
+                {overview}
+              </div>
+            </div>
+          </div>
+        </figure>
         <div className="cont-friends-watch">
                 <div className="img-friends">
                     <img src={wface} alt="" />
@@ -26,8 +41,8 @@ function Card({title, imageSource, overview}) {
             </div>
             <div className="container-sup-dur">
               <div class="line-1"></div>
-              <div className='container-duration'>
-                <div className='duration'>01:29</div>
+              <div className='continue-container-duration'>
+                <div className='duration'>02:28:05</div>
               </div>
             </div>
           </div>

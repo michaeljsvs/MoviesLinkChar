@@ -19,7 +19,7 @@ function Portada({title, imageSource, overview, trailer}) {
             </div>
             <div className="friends-watch">
                 <div className="img-friends">
-                    <img src={wface} alt="" />
+                    {/* <img src={wface} alt="" /> */}
                     <img src={wface} alt="" />
                 </div>
                 <div className='text-fw'>

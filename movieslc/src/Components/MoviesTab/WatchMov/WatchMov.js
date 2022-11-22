@@ -12,6 +12,10 @@ function WatchMov() {
   const IMAGE_PATH = 'https://image.tmdb.org/t/p/original'
   const URL_IMAGE = 'https://image.tmdb.org/t/p/original'
 
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
   const [movies, setMovies] = useState([])
   const [movie, setMovie] = useState({ title: "Loading Movies"})
   const [trailer, setTrailer] = useState(null)
@@ -56,13 +60,15 @@ function WatchMov() {
       fetchMovies()
   },[])
 
+  const r_movie = getRandomInt(14)
+
   return (
     <div className='WatchMov'>
         { movies[0] ?
           (<Portada
-            title={movies[14].title} 
-            imageSource={`${URL_IMAGE + movies[14].backdrop_path}`} 
-            overview={movies[14].overview}
+            title={movies[r_movie].title} 
+            imageSource={`${URL_IMAGE + movies[r_movie].backdrop_path}`} 
+            overview={movies[r_movie].overview}
             trailer={"Official Trailer"}
           />) :
           <div></div>

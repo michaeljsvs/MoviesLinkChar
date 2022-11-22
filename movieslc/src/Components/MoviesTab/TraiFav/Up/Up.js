@@ -6,6 +6,9 @@ import './up.css'
 function Up() {
   return (
     <div className="Up">
+        <div className="title-up">
+          New trailers
+        </div>
         <Cards/>
     </div>
   )

@@ -10,6 +10,7 @@ function CardsPop() {
     const URL_IMAGE = 'https://image.tmdb.org/t/p/original'
 
     const [movies, setMovies] = useState([])
+    console.log("🚀 ~ file: CardsPop.js ~ line 13 ~ CardsPop ~ movies", movies)
     const [movie, setMovie] = useState({ title: "Loading Movies"})
     const [trailer, setTrailer] = useState(null)
 
@@ -62,6 +63,7 @@ function CardsPop() {
                                 title={movie.title} 
                                 imageSource={`${URL_IMAGE + movie.backdrop_path}`} 
                                 overview={movie.overview}
+                                popularity={movie.vote_average}
                             />
                         </div>
                     ))

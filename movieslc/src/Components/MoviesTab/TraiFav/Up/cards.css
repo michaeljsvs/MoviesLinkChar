@@ -23,11 +23,11 @@
     font-size: 1rem;
 }
 
-.card-img-top {
+.img-up  {
     transition: all 0.2s ease-in-out;
 }
 
-.card-img-top:hover {
+.img-up:hover {
     transform: scale(1.8);
 }
 
@@ -245,7 +245,7 @@
 }
 
 .container .up-row {
-    --bs-gutter-y: 1.9rem;
+    --bs-gutter-y: 1.3rem;
 }
 
 .cont-up {
