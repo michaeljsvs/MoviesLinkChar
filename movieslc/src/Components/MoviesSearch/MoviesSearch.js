@@ -11,8 +11,8 @@ function MoviesSearch({movies, setMovies}) {
                 <div className="row">
                 {movies.map((movie) => (
                     <div className='col-md-4 mb-3' key={movie.id}>
-                    <img src={`${URL_IMAGE + movie.poster_path}`} alt="" height={600} width="100%"/>
-                    <h4 className='text-center'>{movie.title}</h4>
+                    <img src={`${URL_IMAGE + movie.poster_path}`} alt="" height="90%" width="100%"/>
+                    <h4 className='text-search text-center'>{movie.title}</h4>
                     </div>
                 ))}
                 </div>
