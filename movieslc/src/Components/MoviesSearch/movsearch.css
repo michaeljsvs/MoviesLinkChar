@@ -6,12 +6,16 @@
     position: absolute;
     font-size: 60px;
     color: white;
-    left: 100px;
+    left: 50px;
     top: 30px;
 }
 
 .bi-arrow-left-circle-fill:hover {
     font-size: 70px;
-    left: 95px;
+    left: 45px;
     top: 25px;
+}
+
+.text-search {
+    color: white;
 }
